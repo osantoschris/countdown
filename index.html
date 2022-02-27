@@ -1,41 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The old lady game!</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Faltam apenas...</title>
 </head>
 <body>
-
-    <div class="title">
-        <h2>
-            Faltam apenas:
-        </h2>
+    
+    <div class="header">
+        <h3>The old lady game</h3>
     </div>
-    <ul class="countdown">
-        <li>
-            <span data-time></span>
-            <div>Dias</div>
-        </li>
-        <li>
-            <span data-time></span>
-            <div>Horas</div>
-        </li>
-        <li>
-            <span data-time></span>
-            <div>Minutos</div>
-        </li>
-        <li>
-            <span data-time></span>
-            <div>Segundos</div>
-        </li>
-    </ul>
-    <div class="message">
-        <p>pra gente matar a saudade <br> Te amo &#x2661;</p>
+    <div class="board" data-board>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    
+    <div class="footer">
+        <p>Created by: Christian Oliveira</p>
     </div>
 
-    <script type="module" src="./js/script.js"></script>
+    <div class="winning-message" data-winning-message>
+        <p class="winning-message-text" data-winning-message-text></p>
+        <button class="winning-message-button" data-restart-button>Reiniciar</button>
+    </div>
+    
+    <script src="js/scripts.js"></script>
 </body>
 </html>
