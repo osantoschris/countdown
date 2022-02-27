@@ -1,6 +1,6 @@
 import Countdown from "./coutndown.js";
 
-const tempoParaOWWB = new Countdown("12 mar 2022 09:00:00 GMT-0300");
+const tempoParaOWWB = new Countdown("12 march 2022 09:00:00 GMT-0300");
 const tempos = document.querySelectorAll("[data-time]");
 
 function mostrarTempo() {
